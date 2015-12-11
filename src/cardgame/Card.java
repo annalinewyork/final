@@ -7,10 +7,12 @@ package cardgame;
  */
 public class Card {
 
+    //牌的花色
     public enum Suit {
         CLUBS, DIAMONDS, HEARTS, SPADES
     };
 
+    //牌的大小
     public enum Number {
         TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE
     };

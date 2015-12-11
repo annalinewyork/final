@@ -3,7 +3,25 @@ package strq;
 public class Test {
 
     public static void main(String[] args) {
-        StringQueue queue = null;  // FIXME: Use an instance of your SimpleStringQueue.
+        final StringQueue queue = new StringQueue() {
+            @Override
+            public int length() {
+
+                return 0;
+            }
+
+            @Override
+            public void enqueue(String string) {
+
+            }
+
+            @Override
+            public String dequeue(int length) {
+                return null;
+            }
+
+        };  // FIXME: Use an instance of your SimpleStringQueue.
+
         queue.enqueue("Hello, world!");
         queue.enqueue("  ");
         queue.enqueue("This is a test.");

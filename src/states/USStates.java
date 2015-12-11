@@ -16,6 +16,27 @@ public class USStates {
      */
     public static Map<Character, Integer> countStatesByFirstLetter() {
         // TODO: Write this method.
+
+        for (int i =0; i<STATE_NAMES.length; i++){
+            String currentState = STATE_NAMES[i];
+            if (currentState.charAt(0) == 'A'){
+                int totalOfA = 0;
+                totalOfA++;
+            }
+
+            if (currentState.charAt(0) == 'B'){
+                int totalOfB = 0;
+                totalOfB++;
+            }
+
+            if (currentState.charAt(0) == 'C'){
+                int totalOfC = 0;
+                totalOfC++;
+            }
+
+            //...............do not know how to do it without hard code....
+
+        }
         return null;
     }
 

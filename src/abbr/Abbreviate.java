@@ -10,7 +10,9 @@ public class Abbreviate {
      */
     public static String abbreviate(String string) {
         // TODO: Write this method.
-        return null;
+        String result = "";
+        result=string.replaceAll("[aeiouAEIOU]", "");
+        return result;
     }
 
     public static void main(String[] args) {
